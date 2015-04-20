@@ -1,0 +1,7 @@
+Developer Changelog for Mo' Furnaces
+
+April 19, 2015 - Mattkx4 {
+    - Added the basic mod file.
+    - Added the developer changelog.
+    - Created GitHub repo.
+}
