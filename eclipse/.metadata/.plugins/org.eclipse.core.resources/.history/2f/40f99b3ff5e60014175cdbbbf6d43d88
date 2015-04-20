@@ -1,0 +1,16 @@
+package com.mattkx4.mfm.main;
+
+import net.minecraft.init.Blocks;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+
+@Mod(modid = MoFurnacesMod.MODID, version = MoFurnacesMod.VERSION)
+public class MoFurnacesMod {
+    @EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+		// some example code
+        System.out.println("DIRT BLOCK >> "+Blocks.dirt.getUnlocalizedName());
+    }
+}

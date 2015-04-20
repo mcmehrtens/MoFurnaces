@@ -1,0 +1,19 @@
+[
+{
+"modid": "mofurnacesmod",
+"name": "Mo' Furnaces Mod",
+"description": "Enhancing Minecraft by adding more furnaces!",
+"version": "3.0.0.0",
+"credits": "Created by Mattkx4 and Ken George",
+"logoFile": "",
+"mcversion": "1.8",
+"url": "",
+"updateUrl": "",
+"authors": [ "Mattkx4", "Ken George" ],
+"parent":"",
+"screenshots": [],
+"dependencies": [
+     "mod_MinecraftForge"
+]
+}
+]
