@@ -1,5 +1,9 @@
 Developer Changelog for Mo' Furnaces
 
+April 24, 2014 - kvgeorge1 {
+    - Added FML preInit method to main plugin file.
+}
+
 April 19, 2015 - Mattkx4 {
     - Added the basic mod file.
     - Added the developer changelog.
