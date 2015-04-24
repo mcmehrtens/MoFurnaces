@@ -1,5 +1,10 @@
 Developer Changelog for Mo' Furnaces
 
+April 24, 2014 - Mattkx4 {
+    - Added basic brick furnace
+        - NOTE: Still needs the GUI/Container code written. I'll tackle this tomorrow. (Really sleepy and hungry right now)
+}
+
 April 24, 2014 - kvgeorge1 {
     - Added FML preInit method to main plugin file.
 }
