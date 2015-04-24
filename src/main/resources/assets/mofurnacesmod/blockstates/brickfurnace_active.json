@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mofurnacesmod:brickfurnace_active" },
+        "facing=south": { "model": "mofurnacesmod:brickfurnace_active", "y": 180 },
+        "facing=west":  { "model": "mofurnacesmod:brickfurnace_active", "y": 270 },
+        "facing=east":  { "model": "mofurnacesmod:brickfurnace_active", "y": 90 }
+    }
+}

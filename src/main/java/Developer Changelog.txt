@@ -6,6 +6,8 @@ April 24, 2014 - Mattkx4 {
 }
 
 April 24, 2014 - kvgeorge1 {
+    - Added Textures/Models for Brick Furnace
+    - Added Item Registry for inventory items for Brick Furnace
     - Added FML preInit method to main plugin file.
 }
 
