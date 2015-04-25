@@ -1,5 +1,9 @@
 Developer Changelog for Mo' Furnaces
 
+April 25, 2014 - kvgeorge1 {
+    - Fixed bug with TileEntityBrickFurnace where updating the furnace was returning a BlockFurnace instead of a BrickFurnace
+}
+
 April 24, 2014 - Mattkx4 {
     - Added basic brick furnace
         - NOTE: Still needs the GUI/Container code written. I'll tackle this tomorrow. (Really sleepy and hungry right now)

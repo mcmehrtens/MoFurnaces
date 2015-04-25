@@ -1,7 +1,6 @@
 package com.mattkx4.mofurnacesmod.tileentities;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockFurnace;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -27,6 +26,8 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.MathHelper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import com.mattkx4.mofurnacesmod.furnaces.BrickFurnace;
 
 public class TileEntityBrickFurnace extends TileEntityLockable implements IUpdatePlayerListBox, ISidedInventory {
 	private static final int[] slotsTop = new int[] {0};
@@ -249,7 +250,7 @@ public class TileEntityBrickFurnace extends TileEntityLockable implements IUpdat
 
             if (flag != this.isBurning()) {
                 flag1 = true;
-                BlockFurnace.setState(this.isBurning(), this.worldObj, this.pos);
+                BrickFurnace.setState(this.isBurning(), this.worldObj, this.pos);
             }
         }
 
