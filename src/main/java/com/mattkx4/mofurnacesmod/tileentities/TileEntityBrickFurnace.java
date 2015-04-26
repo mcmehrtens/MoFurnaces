@@ -42,7 +42,6 @@ public class TileEntityBrickFurnace extends TileEntityLockable implements IUpdat
     private int cookTime;
     private int totalCookTime;
     private String furnaceCustomName;
-    private static final String __OBFID = "CL_00000357";
 
     /**
      * Returns the number of slots in the inventory.

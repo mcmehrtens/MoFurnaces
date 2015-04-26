@@ -1,15 +1,20 @@
 Developer Changelog for Mo' Furnaces
 
-April 25, 2014 - kvgeorge1 {
+April 25, 2015 - Mattkx4 {
+    - Fixed a bug with the an extra prefix being added to game registry files
+    - Added the proper container and gui classes to the brick furnace
+}
+
+April 25, 2015 - kvgeorge1 {
     - Fixed bug with TileEntityBrickFurnace where updating the furnace was returning a BlockFurnace instead of a BrickFurnace
 }
 
-April 24, 2014 - Mattkx4 {
+April 24, 2015 - Mattkx4 {
     - Added basic brick furnace
         - NOTE: Still needs the GUI/Container code written. I'll tackle this tomorrow. (Really sleepy and hungry right now)
 }
 
-April 24, 2014 - kvgeorge1 {
+April 24, 2015 - kvgeorge1 {
     - Added Textures/Models for Brick Furnace
     - Added Item Registry for inventory items for Brick Furnace
     - Added FML preInit method to main plugin file.

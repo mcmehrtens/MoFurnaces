@@ -47,8 +47,8 @@ public class FurnaceRegistry {
 		// Initialize the Brick Furnace
 		BrickFurnaceIdle = new BrickFurnace(false).setHardness(3.5F).setStepSound(Block.soundTypePiston).setUnlocalizedName("brickfurnace_idle").setCreativeTab(CreativeTabs.tabDecorations);
 		BrickFurnaceActive = new BrickFurnace(true).setHardness(3.5F).setStepSound(Block.soundTypePiston).setLightLevel(0.875F).setUnlocalizedName("brickfurnace_active");
-		GameRegistry.registerBlock(BrickFurnaceIdle, ModVariables.MODID + ":" + "brickfurnace_idle");
-        GameRegistry.registerBlock(BrickFurnaceActive, ModVariables.MODID + ":" + "brickfurnace_active");
+		GameRegistry.registerBlock(BrickFurnaceIdle, "brickfurnace_idle");
+        GameRegistry.registerBlock(BrickFurnaceActive, "brickfurnace_active");
 	}
 	
 	/**
@@ -56,7 +56,7 @@ public class FurnaceRegistry {
 	 */
 	public static void registerFurnace2() {
 		// Initialize the Crafting Recipe and Tile Entity Registry for the Brick Furnace
-		GameRegistry.registerTileEntity(TileEntityBrickFurnace.class, ModVariables.MODID + ":" + "brickfurnace");
+		GameRegistry.registerTileEntity(TileEntityBrickFurnace.class, "brickfurnace_tileentity");
 		GameRegistry.addRecipe(new ItemStack(BrickFurnaceIdle), new Object[] {
 			"XXX", "X X", "XXX", 'X', Blocks.brick_block
 		});
