@@ -3,6 +3,7 @@ Developer Changelog for Mo' Furnaces
 April 25, 2015 - Mattkx4 {
     - Fixed a bug with the an extra prefix being added to game registry files
     - Added the proper container and gui classes to the brick furnace
+    - Started fixing a bug with the GUI/Container class
 }
 
 April 25, 2015 - kvgeorge1 {

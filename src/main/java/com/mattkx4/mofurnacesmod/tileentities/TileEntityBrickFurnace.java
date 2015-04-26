@@ -7,7 +7,6 @@ import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.Container;
-import net.minecraft.inventory.ContainerFurnace;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.inventory.SlotFurnaceFuel;
@@ -27,7 +26,9 @@ import net.minecraft.util.MathHelper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
+import com.mattk4.mofurnacesmod.gui.furnacecontainers.ContainerBrickFurnace;
 import com.mattkx4.mofurnacesmod.furnaces.BrickFurnace;
+import com.mattkx4.mofurnacesmod.libs.FurnaceNames;
 
 public class TileEntityBrickFurnace extends TileEntityLockable implements IUpdatePlayerListBox, ISidedInventory {
 	private static final int[] slotsTop = new int[] {0};
@@ -41,7 +42,7 @@ public class TileEntityBrickFurnace extends TileEntityLockable implements IUpdat
     private int currentItemBurnTime;
     private int cookTime;
     private int totalCookTime;
-    private String furnaceCustomName;
+    private String furnaceCustomName = FurnaceNames.BRICK_FURNACE_NAME;
 
     /**
      * Returns the number of slots in the inventory.
@@ -400,7 +401,7 @@ public class TileEntityBrickFurnace extends TileEntityLockable implements IUpdat
     }
 
     public Container createContainer(InventoryPlayer playerInventory, EntityPlayer playerIn) {
-        return new ContainerFurnace(playerInventory, this);
+        return new ContainerBrickFurnace(playerInventory, this);
     }
 
     public int getField(int id) {

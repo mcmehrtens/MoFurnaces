@@ -23,6 +23,7 @@ public class ContainerBrickFurnace extends Container {
 
     public ContainerBrickFurnace(InventoryPlayer p_i45794_1_, IInventory furnaceInventory)
     {
+    	System.out.println("Flag 1");
         this.tileFurnace = furnaceInventory;
         this.addSlotToContainer(new Slot(furnaceInventory, 0, 56, 17));
         this.addSlotToContainer(new SlotFurnaceFuel(furnaceInventory, 1, 56, 53));
